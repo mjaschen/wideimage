@@ -92,7 +92,7 @@
 		static function path()
 		{
 			if (self::$path === null)
-				self::$path = dirname(__FILE__) . DIRECTORY_SEPARATOR;
+				self::$path = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'WideImage' . DIRECTORY_SEPARATOR;
 			return self::$path;
 		}
 		
